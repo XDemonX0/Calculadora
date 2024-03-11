@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         padding: 20,
         justifyContent: 'flex-end',
+        backgroundColor: colors.background,
     },
     mainResult: {
         color: colors.textPrimary,

@@ -38,9 +38,9 @@ const deleteOperation = () => {
 const toogleSign = () => {
     if (number.includes('-')) {
         setNumber(number.replace('-', ''));
+    } else{
+        setNumber('-' + number);
     }
-
-    setNumber('-' + number);
     
 };
 
@@ -65,7 +65,6 @@ const buildNumber = (numberString: string) => {
             }
         return setNumber(number + numberString);
         }
-
     setNumber(number + numberString);
 }
 
